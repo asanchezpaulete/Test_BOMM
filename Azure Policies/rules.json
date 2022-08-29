@@ -1,4 +1,4 @@
- {
+{
         "if": {
           "allOf": [
             {
@@ -344,5 +344,8 @@
               ]
             }
           ]
+        },
+        "then":  {
+            "effect":  "[parameters('effect')]"
         }
       }
